@@ -5,15 +5,15 @@
 // console.log(typeof(num));
 
 
-let a =7;
-let b =5;
-console.log(a+b);
+// let a =7;
+// let b =5;
+// console.log(a+b);
 
-console.log(a-b);
+// console.log(a-b);
 
-console.log(a*b);
+// console.log(a*b);
 
-console.log(a/b);
+// console.log(a/b);
 
 
 
@@ -39,3 +39,10 @@ console.log(a/b);
 //     console.log("current count:" +count);
 // }
 
+var age= 20;
+var votable = (age<18)?"too young":"old enough";
+console.log (votable);
+
+var num1=4,num2=7,num3=9;
+var max=(num1>num2)?(num1>num3?num1:num3):(num1>num3?num1:num3);
+ console.log(max);                   
